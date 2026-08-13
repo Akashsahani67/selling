@@ -1,0 +1,11 @@
+Drop your product photos in this folder.
+
+Match the filename to the "image" field you set in
+assets/js/products-data.js for each product, e.g.:
+
+  assets/images/products/kettle.jpg
+
+Recommended: ~800x600px (4:3), JPG or WebP, under 300KB.
+
+Until a real photo is added, the product card will show a small
+placeholder label instead of a broken image.

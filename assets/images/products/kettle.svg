@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2C6E66"/>
+      <stop offset="100%" stop-color="#163C37"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)"/>
+  <circle cx="330" cy="50" r="70" fill="#ffffff" opacity="0.05"/>
+  <circle cx="40" cy="260" r="90" fill="#ffffff" opacity="0.05"/>
+
+  <g transform="translate(150,55)" fill="none" stroke="#F6F1E4" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- lid -->
+    <ellipse cx="45" cy="6" rx="30" ry="8" fill="#D9A62E" stroke="none"/>
+    <rect x="38" y="-8" width="14" height="8" rx="3" fill="#D9A62E" stroke="none"/>
+
+    <!-- body -->
+    <path d="M8 22 C8 12 24 6 45 6 C66 6 82 12 82 22 L82 140 C82 168 66 182 45 182 C24 182 8 168 8 140 Z" fill="#F6F1E4" fill-opacity="0.1"/>
+
+    <!-- gooseneck spout -->
+    <path d="M80 40 C118 34 138 14 132 -10 C130 -20 118 -20 116 -10 C113 2 122 16 148 20"/>
+
+    <!-- handle -->
+    <path d="M6 60 C-22 60 -22 100 6 100"/>
+
+    <!-- base -->
+    <rect x="24" y="182" width="42" height="10" rx="4" fill="#F6F1E4" stroke="none"/>
+  </g>
+</svg>
